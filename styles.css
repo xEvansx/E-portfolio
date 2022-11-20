@@ -35,6 +35,10 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -45,6 +49,13 @@ li {
     color: #6030b1;
 }
 
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
 
 /* NAVIGATION BAR*/
 
@@ -120,7 +131,7 @@ nav {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 8px 16px black;
+    box-shadow: 0 8px 16px #242424;
     margin-bottom: 28px;
 }
 
@@ -156,5 +167,27 @@ nav {
 }
 
 .about-me__img {
+    width: 100%;
+}
+
+/* TECH -STACK*/
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.language__list {
+    display: flex;
     width: 100%;
 }
