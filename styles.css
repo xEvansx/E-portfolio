@@ -217,3 +217,9 @@ nav {
     transform: scale(1);
     opacity: 1;
 }
+
+/* PROJECTS */
+
+.project__img {
+     width: 100%;
+}
